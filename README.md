@@ -1,4 +1,4 @@
-![Last Commit](https://img.shields.io/github/last-commit/MateusLeviDev/maven-jpa-demo/edit)
+![Last Commit](https://img.shields.io/github/last-commit/MateusLeviDev/maven-jpa-demo)
 
 ## `JPA - MAVEN QUESTIONS`
 
