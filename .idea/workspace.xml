@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b13a23-ff62-456e-9ffd-5062f3f262a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/levi/dao/CategoriaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/levi/dao/CategoriaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/levi/dao/CategoriaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/levi/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/levi/dao/ProductDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/levi/models/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/levi/models/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/levi/models/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/levi/models/Products.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/levi/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/levi/testes/CadastroDeProduto.java" afterDir="false" />

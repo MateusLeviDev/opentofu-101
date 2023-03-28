@@ -16,4 +16,17 @@ public class ProductDao {
     public void cadastrar(Products product) {
         this.em.persist(product);
     }
+
+    public void atualizar(Products products) {
+        this.em.persist(products);
+    }
+
+    public void remover(Products products) {
+        this.em.merge(products);
+    }
+
+    public Products buscarPorId(Long id) {
+        return em.find(Products.class, id);
+
+    }
 }

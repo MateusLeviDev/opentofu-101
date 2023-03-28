@@ -14,7 +14,14 @@ import java.math.BigDecimal;
 
 public class CadastroDeProduto {
     public static void main(String[] args) {
+        cadastrarProduto();
+        EntityManager em = JPAUtil.getEntityManager();
+        ProductDao productDao = new ProductDao(em);
+        Products p = productDao.buscarPorId(1l);
+        System.out.println(p.getPreco());
+    }
 
+    private static void cadastrarProduto() {
         Categoria celulares = new Categoria("CELULARES");
 
 
