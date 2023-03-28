@@ -1,6 +1,7 @@
 package br.com.levi.testes;
 
 import br.com.levi.dao.ProductDao;
+import br.com.levi.models.Categoria;
 import br.com.levi.models.Products;
 import br.com.levi.util.JPAUtil;
 
@@ -13,12 +14,9 @@ import java.math.BigDecimal;
 public class CadastroDeProduto {
     public static void main(String[] args) {
 
-        Products celular = new Products();
-        celular.setNome("iphone 13");
-        celular.setDescricao("Muito caro.");
-        celular.setPreco(new BigDecimal("800"));
+        Products celular = new Products("iphone 13", "Muito caro.", new BigDecimal("800"), Categoria.CELULARES);
 
-        EntityManager em = JPAUtil.getEntityManager;
+        EntityManager em = JPAUtil.getEntityManager();
         ProductDao dao = new ProductDao(em);
 
         em.getTransaction().begin();
