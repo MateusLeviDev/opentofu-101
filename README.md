@@ -1,6 +1,6 @@
 ![Last Commit](https://img.shields.io/github/last-commit/MateusLeviDev/maven-jpa-demo)
 
-## `JPA - MAVEN QUESTIONS`
+## `JPA - QUESTIONS`
 
 - 01. Qual o significado da sigla JPA e o que ela representa? (10%)
 - 02. O que é um EntityManager e qual sua função? (20%)
