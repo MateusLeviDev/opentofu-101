@@ -3,9 +3,11 @@
 ## `JPA - QUESTIONS`
 
 - 01. Qual o significado da sigla JPA e o que ela representa? (10%)
+> Ela representa Java Persistense API. Ela representa uma especificação para ORM em Java. Um framework de mapeamento relacional. 
 - 02. O que é um EntityManager e qual sua função? (20%)
 - 03. O que é uma entidade no contexto do JPA e como ela é representada? (30%)
 - 04. O que é o Hibernate e qual sua relação com o JPA? (20%)
+> Hibernate é um de seus principais frameworks para a aplicação. 
 - 05. Quais são as principais anotações usadas no JPA e para que servem? (40%)
 - 06. Como configurar o JPA em uma aplicação web usando o arquivo persistence.xml? (40%)
 - 07. Como criar consultas usando JPQL (Java Persistence Query Language)? (50%)
