@@ -6,10 +6,15 @@
 > Ela representa Java Persistense API. Ela representa uma especificação para ORM em Java. Um framework de mapeamento relacional. 
 - 02. O que é um EntityManager e qual sua função? (20%)
 - 03. O que é uma entidade no contexto do JPA e como ela é representada? (30%)
+> Podemos entender uma entity como um modelo de tabela em um banco de dados relacional. 
 - 04. O que é o Hibernate e qual sua relação com o JPA? (20%)
 > Hibernate é um de seus principais frameworks para a aplicação. 
 - 05. Quais são as principais anotações usadas no JPA e para que servem? (40%)
 - 06. Como configurar o JPA em uma aplicação web usando o arquivo persistence.xml? (40%)
+> Para configurar o JPA em uma aplicação web usando o arquivo persistence.xml, siga os seguintes passos:
+
+- Crie um arquivo persistence.xml dentro do diretório "META-INF" da sua aplicação. Esse arquivo deve estar no classpath da sua aplicação.
+- Configure o provedor de persistência (Hibernate, EclipseLink, etc.) que você deseja utilizar, informando o nome da classe do provedor e as propriedades específicas desse provedor. 
 - 07. Como criar consultas usando JPQL (Java Persistence Query Language)? (50%)
 - 08. O que é um relacionamento bidirecional no JPA e como é implementado? (60%)
 - 09. Quais são as estratégias de geração de chaves primárias disponíveis no JPA e como configurá-las? (70%)
