@@ -5,6 +5,7 @@
 - 01. Qual o significado da sigla JPA e o que ela representa? (10%)
 > Ela representa Java Persistense API. Ela representa uma especificação para ORM em Java. Um framework de mapeamento relacional. 
 - 02. O que é um EntityManager e qual sua função? (20%)
+> Parte da operação com o banco de dados. Trata-se da camada de persistência, ao contrário da lógica da aplicação (mapeamento) que fica por conta da classe da entidade, ou seja, @Annotations. É uma interface da API JPA. 
 - 03. O que é uma entidade no contexto do JPA e como ela é representada? (30%)
 > Podemos entender uma entity como um modelo de tabela em um banco de dados relacional. 
 - 04. O que é o Hibernate e qual sua relação com o JPA? (20%)
