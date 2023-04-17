@@ -25,3 +25,11 @@
 - 15. Como depurar problemas de compilação ou empacotamento no Maven quando ocorrem erros inesperados?
 - 16. Como integrar o Maven com outras ferramentas de build ou automação, como o Jenkins ou o GitLab CI/CD, para criar pipelines de build e implantação contínuas?
 - 17. O que é Maven e como ele ajuda no desenvolvimento de software?
+
+
+## `Breves trechos sobre JPA`
+> "De forma geral, uma arquitetura de objetos distribuídos é o elemento central para qualquer servidor de aplicativos. No ambiente Java, não poderia ser diferente, como podemos observar no uso de componentes EJB (Enterprise Java Bean) em servidores como GlassFish, JBoss e WebSphere. "
+> "Um EJB é um componente corporativo, utilizado de forma indireta, dentro de um ambiente de objetos distribuídos, suportando transações locais e distribuídas, recursos de autenticação e segurança, acesso a banco de dados via pool de conexões, e demais elementos da plataforma JEE (Java Enterprise Edition). Todo EJB executa dentro de um pool de objetos, em que o número de instâncias irá aumentar ou diminuir, de acordo com a demanda de solicitações efetuadas, segundo um intervalo de tempo estabelecido."
+- Um pool de objetos segue o padrão de desenvolvimento Flyweight, no qual o objetivo é responder a uma grande quantidade de requisições através de um pequeno conjunto de objetos.
+
+
