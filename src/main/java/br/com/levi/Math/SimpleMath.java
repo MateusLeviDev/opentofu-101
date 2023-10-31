@@ -12,13 +12,12 @@ public class SimpleMath {
         return firstNumber - secondNumber;
     }
 
-        public Double multiplication(Double firstNumber, Double secondNumber) {
+    public Double multiplication(Double firstNumber, Double secondNumber) {
         return firstNumber * secondNumber;
     }
 
     public Double division(Double firstNumber, Double secondNumber) {
-        if (secondNumber == 0) throw new ArithmeticException("Division by zero");
-
+        if (secondNumber.equals(0D)) throw new ArithmeticException("Division by zero");
 
         return firstNumber / secondNumber;
     }
