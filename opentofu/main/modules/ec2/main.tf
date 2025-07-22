@@ -19,7 +19,7 @@ resource "aws_instance" "webserver" {
                 apt-get install nginx -y
                 systemctl start nginx
                 systemctl enable nginx
-                echo "<h1>Deployado via Terraform com o Gomex e o Jeferson</h1>" > /var/www/html/index.html
+                echo "<h1>Deployed via OpenTofu by Levi</h1>" > /var/www/html/index.html
                 EOF
 }
 
